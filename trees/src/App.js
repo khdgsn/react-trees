@@ -46,9 +46,10 @@ function App() {
 
   return (
     <div className="container">
+      <h1>Types of trees</h1>
       {trees.map((tree) => (
         <div key={tree.name} className="content">
-          <p>{tree.name}</p>
+          <h2>{tree.name}</h2>
           <p>{tree.description}</p>
           <img
                 src={tree.img}
