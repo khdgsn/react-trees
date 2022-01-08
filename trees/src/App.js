@@ -1,4 +1,5 @@
 import "./App.css";
+import Button from "./Button.js";
 
 function App() {
   let trees = [
@@ -55,6 +56,7 @@ function App() {
                 width="200px"
                 height="150px"
               ></img>
+          <Button />
         </div>
       ))}
     </div>
