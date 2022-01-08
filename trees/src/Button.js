@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import { AiFillLike } from "react-icons/ai";
 
-export default function Icons() {
+export default function Button() {
   const [buttonLike, setButtonLike] = useState("rgb(128,128,128)");
   const [likeCounter, setLikeCounter] = useState(0);
 
