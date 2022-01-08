@@ -5,7 +5,9 @@ function App() {
     {
       name: "Oak",
       description:
-        "An oak is a tree or shrub in the genus Quercus of the beech family, Fagaceae. There are approximately 500 extant species of oaks."
+        "An oak is a tree or shrub in the genus Quercus of the beech family, Fagaceae. There are approximately 500 extant species of oaks.",
+      img: 
+        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FQuercus_alba&psig=AOvVaw3DU3ogcUzO2iSYhenKD84x&ust=1641731117011000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjAl5OTovUCFQAAAAAdAAAAABAD"
     },
 
     {
@@ -39,6 +41,12 @@ function App() {
         <div key={tree.name} className="content">
           <p>{tree.name}</p>
           <p>{tree.description}</p>
+          <img
+                src={tree.img}
+                alt=""
+                width="100px"
+                height="100px"
+              ></img>
         </div>
       ))}
     </div>
